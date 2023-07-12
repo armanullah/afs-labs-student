@@ -24,4 +24,5 @@ spec:
             name: db-secret
         name: app-deployment
         image: registry.dev.afsmtddso.com/akhan-harbor-project/app:ebaefd3-ddbae3b
+        ports:
         - containerPort: 5000
